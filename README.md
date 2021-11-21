@@ -2,8 +2,8 @@
 
 ## problem
 * Because we modify the class, DataFrameIterator, in Keras package to load DICOM image, we can not use all of training DICOM image to draw the confusion matrix. However, we can modify and fine-tuning the model according to the confusion matrix.
-* the second verion model has high accuracy and low loss value in trainning dataset and validation dataset which is splited from trainning DICOM images. However, it has low accuracy in validation DICOM images.
-* the seventh version model can not recognize the Atypical images.
+* The second verion model has high accuracy and low loss value in trainning dataset and validation dataset which is splited from trainning DICOM images. However, it has low accuracy in validation DICOM images.
+* The seventh version model can not recognize the Atypical images.
 
 -----
 
@@ -22,9 +22,11 @@
 ### model 
 <code>
 Model: "sequential"
+
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   
 ________________________________________________________________
+
  conv2d (Conv2D)             (None, 128, 128, 32)      320       
                                                                  
  conv2d_1 (Conv2D)           (None, 128, 128, 32)      9248      
