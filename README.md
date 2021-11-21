@@ -8,6 +8,9 @@
 * tensorflow 2.7
 * pydicom
 
+#### enviroment
+*  GeForce RTX 3090
+
 ### model (transfer learning)
 * base model: inception_v3(lock parameters)
 * add layers: 
