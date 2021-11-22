@@ -20,7 +20,9 @@
 *  GeForce RTX 3090
 
 ### model 
+
 <code>
+
 Model: "sequential"
 
 _________________________________________________________________
@@ -82,7 +84,9 @@ Total params: 3,318,179
 Trainable params: 3,317,795
 Non-trainable params: 384
 ___________________________________________________
+
 </code>
+
 ### data preprocessing
 * normailization
 * rescale=1.0/255.0
@@ -101,6 +105,7 @@ ___________________________________________________
 
 #### packages
 * tensorflow 2.7
+* keras 2.7
 * pydicom
 
 #### enviroment
@@ -127,3 +132,7 @@ ___________________________________________________
 * early stopping: 10 patience with min delta = 1E-5
 * loss function: categorical crossentropy
 
+----
+
+# Pneumonia Practice
+In practice dataset, we analysed the DICOM images and tried to build a classification  model.
